@@ -1,0 +1,14 @@
+D:\git\AtonTestProject\AtonAPI\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\git\AtonTestProject\AtonAPI\Domain\bin\Debug\net7.0\Domain.dll
+D:\git\AtonTestProject\AtonAPI\Domain\bin\Debug\net7.0\Domain.pdb
+D:\git\AtonTestProject\AtonAPI\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+D:\git\AtonTestProject\AtonAPI\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\git\AtonTestProject\AtonAPI\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\git\AtonTestProject\AtonAPI\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\git\AtonTestProject\AtonAPI\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\git\AtonTestProject\AtonAPI\Domain\obj\Debug\net7.0\Domain.dll
+D:\git\AtonTestProject\AtonAPI\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\git\AtonTestProject\AtonAPI\Domain\obj\Debug\net7.0\Domain.pdb
+D:\git\AtonTestProject\AtonAPI\Domain\obj\Debug\net7.0\ref\Domain.dll
+D:\git\AtonTestProject\AtonAPI\Domain\bin\Debug\net7.0\Domain.runtimeconfig.json
+D:\git\AtonTestProject\AtonAPI\Domain\obj\Debug\net7.0\Domain.genruntimeconfig.cache

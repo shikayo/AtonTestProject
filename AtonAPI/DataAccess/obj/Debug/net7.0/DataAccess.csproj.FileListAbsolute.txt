@@ -1,0 +1,17 @@
+D:\git\AtonTestProject\AtonAPI\DataAccess\bin\Debug\net7.0\DataAccess.deps.json
+D:\git\AtonTestProject\AtonAPI\DataAccess\bin\Debug\net7.0\DataAccess.dll
+D:\git\AtonTestProject\AtonAPI\DataAccess\bin\Debug\net7.0\DataAccess.pdb
+D:\git\AtonTestProject\AtonAPI\DataAccess\bin\Debug\net7.0\Domain.dll
+D:\git\AtonTestProject\AtonAPI\DataAccess\bin\Debug\net7.0\Domain.pdb
+D:\git\AtonTestProject\AtonAPI\DataAccess\obj\Debug\net7.0\DataAccess.csproj.AssemblyReference.cache
+D:\git\AtonTestProject\AtonAPI\DataAccess\obj\Debug\net7.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\git\AtonTestProject\AtonAPI\DataAccess\obj\Debug\net7.0\DataAccess.AssemblyInfoInputs.cache
+D:\git\AtonTestProject\AtonAPI\DataAccess\obj\Debug\net7.0\DataAccess.AssemblyInfo.cs
+D:\git\AtonTestProject\AtonAPI\DataAccess\obj\Debug\net7.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\git\AtonTestProject\AtonAPI\DataAccess\obj\Debug\net7.0\DataAccess.csproj.CopyComplete
+D:\git\AtonTestProject\AtonAPI\DataAccess\obj\Debug\net7.0\DataAccess.dll
+D:\git\AtonTestProject\AtonAPI\DataAccess\obj\Debug\net7.0\refint\DataAccess.dll
+D:\git\AtonTestProject\AtonAPI\DataAccess\obj\Debug\net7.0\DataAccess.pdb
+D:\git\AtonTestProject\AtonAPI\DataAccess\obj\Debug\net7.0\ref\DataAccess.dll
+D:\git\AtonTestProject\AtonAPI\DataAccess\bin\Debug\net7.0\DataAccess.runtimeconfig.json
+D:\git\AtonTestProject\AtonAPI\DataAccess\obj\Debug\net7.0\DataAccess.genruntimeconfig.cache
