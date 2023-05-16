@@ -10,18 +10,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5532782b-20f7-45b5-b8d5-58b1087738f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AtonAPI/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AtonAPI/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AtonAPI.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AtonAPI/AtonAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/AtonAPI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AtonAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AtonAPI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtonAPI/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/Controllers/UserController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AtonAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AtonAPI/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AtonAPI/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AtonAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/DataAccess.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/DataAccess.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Services.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtonAPI/Services/UserService/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/Services/UserService/IUserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtonAPI/Services/UserService/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/Services/UserService/UserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtonAPI/bin/Debug/net7.0/AtonAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/bin/Debug/net7.0/AtonAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtonAPI/bin/Debug/net7.0/AtonAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/bin/Debug/net7.0/AtonAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtonAPI/bin/Debug/net7.0/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/bin/Debug/net7.0/DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtonAPI/bin/Debug/net7.0/DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/bin/Debug/net7.0/DataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtonAPI/bin/Debug/net7.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/bin/Debug/net7.0/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtonAPI/bin/Debug/net7.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/bin/Debug/net7.0/Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtonAPI/obj/Debug/net7.0/AtonAPI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/obj/Debug/net7.0/AtonAPI.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtonAPI/obj/Debug/net7.0/AtonAPI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/obj/Debug/net7.0/AtonAPI.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtonAPI/obj/Debug/net7.0/AtonAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/obj/Debug/net7.0/AtonAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtonAPI/obj/Debug/net7.0/AtonAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/obj/Debug/net7.0/AtonAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtonAPI/obj/Debug/net7.0/ref/AtonAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/obj/Debug/net7.0/ref/AtonAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtonAPI/obj/Debug/net7.0/refint/AtonAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/obj/Debug/net7.0/refint/AtonAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/Repository/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/Repository/IUserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/Repository/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/Repository/UserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/bin/Debug/net7.0/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Debug/net7.0/DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/bin/Debug/net7.0/DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Debug/net7.0/DataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/bin/Debug/net7.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Debug/net7.0/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/bin/Debug/net7.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Debug/net7.0/Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/DataAccess.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/DataAccess.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/DataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/ref/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/ref/DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/refint/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/refint/DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Models/AuthResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Models/Auth/AuthResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Models/LoginModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Models/Auth/LoginModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Models/UserModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Models/User/UserModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/net7.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/net7.0/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/net7.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/net7.0/Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/ref/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/ref/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/refint/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/refint/Domain.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +60,9 @@
         <option value="JSON File" />
       </list>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/06e6b5e410594922af54f5731fb38a29b1c8b0/98/9245202b/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2OjDX5eU4UxOBhGwjTswQ7lSELx" />
   <component name="ProjectViewState">
@@ -126,6 +155,12 @@
       <workItem from="1683734979611" duration="1336000" />
       <workItem from="1683736456448" duration="866000" />
       <workItem from="1683777032772" duration="9473000" />
+      <workItem from="1683818562627" duration="3641000" />
+      <workItem from="1683984704166" duration="595000" />
+      <workItem from="1684061418037" duration="1063000" />
+      <workItem from="1684071199806" duration="4226000" />
+      <workItem from="1684075960647" duration="1573000" />
+      <workItem from="1684141025882" duration="11395000" />
     </task>
     <servers />
   </component>
@@ -141,80 +176,14 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/AtonAPI/Attributes/AuthorizeAttribute.cs</url>
           <line>11</line>
-          <properties documentPath="D:\git\AtonTestProject\AtonAPI\AtonAPI\Attributes\AuthorizeAttribute.cs" initialLine="11" containingFunctionPresentation="Method 'OnAuthorization'">
-            <startOffsets>
-              <option value="342" />
-            </startOffsets>
-            <endOffsets>
-              <option value="356" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="D:\git\AtonTestProject\AtonAPI\AtonAPI\Attributes\AuthorizeAttribute.cs" initialLine="11" containingFunctionPresentation="Method 'OnAuthorization'" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/AtonAPI/Attributes/AuthorizeAttribute.cs</url>
           <line>16</line>
-          <properties documentPath="D:\git\AtonTestProject\AtonAPI\AtonAPI\Attributes\AuthorizeAttribute.cs" initialLine="12" containingFunctionPresentation="Method 'OnAuthorization'">
-            <startOffsets>
-              <option value="463" />
-            </startOffsets>
-            <endOffsets>
-              <option value="483" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="D:\git\AtonTestProject\AtonAPI\AtonAPI\Attributes\AuthorizeAttribute.cs" initialLine="12" containingFunctionPresentation="Method 'OnAuthorization'" />
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/AtonAPI/Controllers/UserController.cs</url>
-          <line>33</line>
-          <properties documentPath="D:\git\AtonTestProject\AtonAPI\AtonAPI\Controllers\UserController.cs" initialLine="33" containingFunctionPresentation="Method 'GetAll'">
-            <startOffsets>
-              <option value="808" />
-            </startOffsets>
-            <endOffsets>
-              <option value="809" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/AtonAPI/Controllers/UserController.cs</url>
-          <line>34</line>
-          <properties documentPath="D:\git\AtonTestProject\AtonAPI\AtonAPI\Controllers\UserController.cs" initialLine="34" containingFunctionPresentation="Method 'GetAll'">
-            <startOffsets>
-              <option value="818" />
-            </startOffsets>
-            <endOffsets>
-              <option value="859" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/AtonAPI/Controllers/UserController.cs</url>
-          <line>35</line>
-          <properties documentPath="D:\git\AtonTestProject\AtonAPI\AtonAPI\Controllers\UserController.cs" initialLine="35" containingFunctionPresentation="Method 'GetAll'">
-            <startOffsets>
-              <option value="868" />
-            </startOffsets>
-            <endOffsets>
-              <option value="885" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/AtonAPI/Controllers/UserController.cs</url>
-          <line>36</line>
-          <properties documentPath="D:\git\AtonTestProject\AtonAPI\AtonAPI\Controllers\UserController.cs" initialLine="36" containingFunctionPresentation="Method 'GetAll'">
-            <startOffsets>
-              <option value="890" />
-            </startOffsets>
-            <endOffsets>
-              <option value="891" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/AtonAPI/Helpers/Jwtmiddleware.cs</url>

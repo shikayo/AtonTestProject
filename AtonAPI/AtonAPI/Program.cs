@@ -1,4 +1,5 @@
 using System.Text;
+using AtonAPI.AutoMapperConfiguration;
 using AtonAPI.Helpers;
 using DataAccess;
 using DataAccess.Repository;
@@ -74,6 +75,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(
 
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+
+builder.Services.AddAutoMapper(typeof(UserProfile));
 
 
 
