@@ -11,6 +11,16 @@
   <component name="ChangeListManager">
     <list default="true" id="5532782b-20f7-45b5-b8d5-58b1087738f6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AtonAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AtonAPI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtonAPI/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/Controllers/AuthController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtonAPI/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/Controllers/UserController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtonAPI/Helpers/Jwtmiddleware.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/Helpers/Jwtmiddleware.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtonAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtonAPI/Services/UserService/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/Services/UserService/IUserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtonAPI/Services/UserService/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/Services/UserService/UserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtonAPI/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio.DataContext/obj/.EntityFrameworkCore.targets" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +32,13 @@
       <list>
         <option value="JSON File" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="66ae1663d8734cd2c32d17aaee445f64d43a8e49" />
+      </map>
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -124,6 +141,7 @@
       <workItem from="1684071199806" duration="4226000" />
       <workItem from="1684075960647" duration="1573000" />
       <workItem from="1684141025882" duration="21918000" />
+      <workItem from="1684285726526" duration="708000" />
     </task>
     <servers />
   </component>
@@ -164,10 +182,10 @@
           <line>46</line>
           <properties documentPath="D:\git\AtonTestProject\AtonAPI\AtonAPI\Helpers\Jwtmiddleware.cs" initialLine="45" containingFunctionPresentation="Method 'AttachUserToContext'">
             <startOffsets>
-              <option value="1483" />
+              <option value="1495" />
             </startOffsets>
             <endOffsets>
-              <option value="1531" />
+              <option value="1543" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="9" />
@@ -177,12 +195,12 @@
           <line>47</line>
           <properties documentPath="D:\git\AtonTestProject\AtonAPI\AtonAPI\Helpers\Jwtmiddleware.cs" initialLine="46" containingFunctionPresentation="Method 'AttachUserToContext'">
             <startOffsets>
-              <option value="1544" />
-              <option value="1595" />
+              <option value="1556" />
+              <option value="1607" />
             </startOffsets>
             <endOffsets>
-              <option value="1618" />
-              <option value="1609" />
+              <option value="1630" />
+              <option value="1621" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="10" />
@@ -192,10 +210,10 @@
           <line>50</line>
           <properties documentPath="D:\git\AtonTestProject\AtonAPI\AtonAPI\Helpers\Jwtmiddleware.cs" initialLine="48" containingFunctionPresentation="Method 'AttachUserToContext'">
             <startOffsets>
-              <option value="1691" />
+              <option value="1703" />
             </startOffsets>
             <endOffsets>
-              <option value="1715" />
+              <option value="1727" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="11" />
@@ -205,10 +223,10 @@
           <line>51</line>
           <properties documentPath="D:\git\AtonTestProject\AtonAPI\AtonAPI\Helpers\Jwtmiddleware.cs" initialLine="49" containingFunctionPresentation="Method 'AttachUserToContext'">
             <startOffsets>
-              <option value="1729" />
+              <option value="1741" />
             </startOffsets>
             <endOffsets>
-              <option value="1730" />
+              <option value="1742" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="12" />
@@ -270,10 +288,10 @@
           <line>49</line>
           <properties documentPath="D:\git\AtonTestProject\AtonAPI\AtonAPI\Helpers\Jwtmiddleware.cs" initialLine="49" containingFunctionPresentation="Method 'AttachUserToContext'">
             <startOffsets>
-              <option value="1632" />
+              <option value="1644" />
             </startOffsets>
             <endOffsets>
-              <option value="1678" />
+              <option value="1690" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="18" />

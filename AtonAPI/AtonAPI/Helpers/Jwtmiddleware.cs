@@ -1,8 +1,8 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
 using System.Text;
+using AtonAPI.Services.UserService;
 using Domain.Entites;
 using Microsoft.IdentityModel.Tokens;
-using Misc.UserService;
 
 namespace AtonAPI.Helpers;
 

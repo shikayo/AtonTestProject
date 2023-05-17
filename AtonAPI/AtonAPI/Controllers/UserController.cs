@@ -1,5 +1,6 @@
 ﻿using System.Net;
 using System.Security.Claims;
+using AtonAPI.Services.UserService;
 using AutoMapper;
 using DataAccess.Repository;
 using Domain.Entites;
@@ -9,7 +10,6 @@ using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
-using Misc.UserService;
 
 namespace AtonAPI.Controllers;
 

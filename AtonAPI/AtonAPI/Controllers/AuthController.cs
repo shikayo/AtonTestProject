@@ -1,6 +1,6 @@
-﻿using Domain.Models;
+﻿using AtonAPI.Services.UserService;
+using Domain.Models;
 using Microsoft.AspNetCore.Mvc;
-using Misc.UserService;
 
 namespace AtonAPI.Controllers;
 

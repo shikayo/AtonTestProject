@@ -1,7 +1,7 @@
 ﻿using Domain.Entites;
 using Domain.Models;
 
-namespace Misc.UserService;
+namespace AtonAPI.Services.UserService;
 
 public interface IUserService
 {

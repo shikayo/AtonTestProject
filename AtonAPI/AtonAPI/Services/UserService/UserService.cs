@@ -1,13 +1,10 @@
-﻿using System.Security.Claims;
-using AtonAPI.Helpers;
+﻿using AtonAPI.Helpers;
 using AutoMapper;
 using DataAccess.Repository;
 using Domain.Entites;
 using Domain.Models;
-using Microsoft.AspNetCore.Http.HttpResults;
-using Microsoft.Extensions.Configuration;
 
-namespace Misc.UserService;
+namespace AtonAPI.Services.UserService;
 
 public class UserService : IUserService
 {

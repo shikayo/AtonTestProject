@@ -1,13 +1,13 @@
 using System.Text;
 using AtonAPI.AutoMapperConfiguration;
 using AtonAPI.Helpers;
+using AtonAPI.Services.UserService;
 using DataAccess;
 using DataAccess.Repository;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using Misc.UserService;
 
 var builder = WebApplication.CreateBuilder(args);
 
