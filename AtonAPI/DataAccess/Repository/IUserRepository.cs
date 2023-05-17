@@ -11,6 +11,6 @@ public interface IUserRepository
     void AddUser(User user);
     Task<List<User>> GetAllSortedByCreation();
     Task<List<User>> GetUsersByAge(int age);
-    void UpdateUser(User user);
-    void DeleteUser(User user);
+    Task UpdateUser(User user);
+    Task DeleteUser(User user);
 }

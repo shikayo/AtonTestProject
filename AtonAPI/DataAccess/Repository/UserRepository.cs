@@ -46,13 +46,13 @@ public class UserRepository : IUserRepository
         return await _context.Users.Where(x => x.Birthday < years).ToListAsync();
     }
 
-    public async void UpdateUser(User user)
+    public async Task UpdateUser(User user)
     {
         _context.Users.Update(user);
          await _context.SaveChangesAsync();
     }
 
-    public async void DeleteUser(User user)
+    public async Task DeleteUser(User user)
     {
         _context.Users.Remove(user);
         await _context.SaveChangesAsync();
