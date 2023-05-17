@@ -11,40 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5532782b-20f7-45b5-b8d5-58b1087738f6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AtonAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AtonAPI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AtonAPI/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/Controllers/UserController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AtonAPI/Services/UserService/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/Services/UserService/IUserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AtonAPI/Services/UserService/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/Services/UserService/UserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AtonAPI/bin/Debug/net7.0/AtonAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/bin/Debug/net7.0/AtonAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AtonAPI/bin/Debug/net7.0/AtonAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/bin/Debug/net7.0/AtonAPI.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AtonAPI/bin/Debug/net7.0/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/bin/Debug/net7.0/DataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AtonAPI/bin/Debug/net7.0/DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/bin/Debug/net7.0/DataAccess.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AtonAPI/bin/Debug/net7.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/bin/Debug/net7.0/Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AtonAPI/bin/Debug/net7.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/bin/Debug/net7.0/Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AtonAPI/obj/Debug/net7.0/AtonAPI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/obj/Debug/net7.0/AtonAPI.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AtonAPI/obj/Debug/net7.0/AtonAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/obj/Debug/net7.0/AtonAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AtonAPI/obj/Debug/net7.0/AtonAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/obj/Debug/net7.0/AtonAPI.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AtonAPI/obj/Debug/net7.0/ref/AtonAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/obj/Debug/net7.0/ref/AtonAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AtonAPI/obj/Debug/net7.0/refint/AtonAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AtonAPI/obj/Debug/net7.0/refint/AtonAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/Repository/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/Repository/IUserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/Repository/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/Repository/UserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/bin/Debug/net7.0/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Debug/net7.0/DataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/bin/Debug/net7.0/DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Debug/net7.0/DataAccess.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/bin/Debug/net7.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Debug/net7.0/Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/bin/Debug/net7.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Debug/net7.0/Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/DataAccess.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/DataAccess.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/DataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/DataAccess.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/ref/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/ref/DataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/refint/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/refint/DataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Models/User/DeleteResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Models/User/DeleteResponse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Models/User/DeleteUserRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Models/User/DeleteUserRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/net7.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/net7.0/Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/net7.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/net7.0/Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/ref/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/ref/Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/refint/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/refint/Domain.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +123,7 @@
       <workItem from="1684061418037" duration="1063000" />
       <workItem from="1684071199806" duration="4226000" />
       <workItem from="1684075960647" duration="1573000" />
-      <workItem from="1684141025882" duration="20957000" />
+      <workItem from="1684141025882" duration="21918000" />
     </task>
     <servers />
   </component>
