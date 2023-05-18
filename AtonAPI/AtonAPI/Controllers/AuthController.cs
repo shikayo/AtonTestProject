@@ -6,7 +6,7 @@ namespace AtonAPI.Controllers;
 
 [Route("[controller]")]
 [ApiController]
-public class AuthController : ControllerBase
+public class AuthController : BaseController
 {
     private readonly IUserService _userService;
     public AuthController(IUserService userService)

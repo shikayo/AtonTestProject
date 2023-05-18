@@ -8,7 +8,7 @@ public interface IUserRepository
     Task<User> GetUserByLoginAsync(string login);
     Task<List<User>> GetAllAsync();
     Task<User> GetByIdAsync(Guid id);
-    void AddUser(User user);
+    Task AddUser(User user);
     Task<List<User>> GetAllSortedByCreation();
     Task<List<User>> GetUsersByAge(int age);
     Task UpdateUser(User user);

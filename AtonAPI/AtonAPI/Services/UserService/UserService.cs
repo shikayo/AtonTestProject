@@ -73,13 +73,16 @@ public class UserService : IUserService
         return false;
     }
 
-    public void CreateUser(CreateUserModel model,User creator)
+    public async Task<CreateUserResponse> CreateUser(CreateUserModel model,User creator)
     {
         var user = new User();
         user = _mapper.Map<User>(model);
         user.CreatedBy = creator.Login;
         user.ModifiedBy = creator.Login;
-        _userRepository.AddUser(user);
+        
+       await _userRepository.AddUser(user);
+
+       return new CreateUserResponse("user created successfully",true,user);
     }
 
     public async Task<DeleteResponse> DeleteUser(DeleteUserRequest request,string Revoker)
@@ -112,7 +115,7 @@ public class UserService : IUserService
             user.ModifiedBy = Revoker;
             user.ModifiedOn = DateTime.Now;
 
-            _userRepository.UpdateUser(user);
+            await _userRepository.UpdateUser(user);
             
             return response;
         }
@@ -122,7 +125,7 @@ public class UserService : IUserService
             response.Revoker = Revoker;
             response.IsSuccess = true;
 
-            _userRepository.DeleteUser(user);
+            await _userRepository.DeleteUser(user);
 
             return response;
         }
@@ -152,11 +155,106 @@ public class UserService : IUserService
         user.RevokedBy = null;
         user.ModifiedBy = Activator;
         user.ModifiedOn=DateTime.Now;
-        _userRepository.UpdateUser(user);
+        await _userRepository.UpdateUser(user);
 
         response.Message = "user was activated";
         response.IsSuccess = true;
         response.ActivatedBy = Activator;
+        return response;
+    }
+
+    public async Task<UpdateInfoResponse> UpdateUserInfo(string login, UpdateUserInfoModel model,string modifiedBy)
+    {
+        var response = new UpdateInfoResponse();
+        
+        var user = await _userRepository.GetUserByLoginAsync(login);
+        if (user == null)
+        {
+            response.Message = "user not found";
+            response.IsSuccess = false;
+
+            return response;
+        }
+
+        user.Name = model.Name ?? user.Name;
+        user.Gender = model.Gender ?? user.Gender;
+        user.Birthday = model.Birthday ?? user.Birthday;
+        user.ModifiedBy = modifiedBy;
+        user.ModifiedOn = DateTime.Now;
+        
+        await _userRepository.UpdateUser(user);
+
+        response.IsSuccess = true;
+        response.UpdatedUser = user;
+        response.Message = "user was successfully updated";
+        
+        return response;
+    }
+
+    public async Task<UpdateUserLoginResponse> UpdateUserLogin(string login, UpdateUserLoginModel model, string modifiedBy)
+    {
+        var response = new UpdateUserLoginResponse();
+        var user = await _userRepository.GetUserByLoginAsync(login);
+
+        if (user == null)
+        {
+            response.Message = "user not found";
+            response.IsSuccess = false;
+
+            return response;
+        }
+
+        if (await _userRepository.GetUserByLoginAsync(model.NewLogin) != null)
+        {
+            response.Message = "user with this login already exists";
+            response.IsSuccess = false;
+
+            return response;
+        }
+
+        user.Login = model.NewLogin;
+        user.ModifiedBy = modifiedBy;
+        user.ModifiedOn = DateTime.Now;
+
+        await _userRepository.UpdateUser(user);
+
+        response.Message = "login was successfully changed";
+        response.IsSuccess = true;
+        response.User = user;
+        
+        return response;
+    }
+
+    public async Task<ChangePasswordResponse> ChangeUserPassword(string login, ChangePasswordModel model, string modifiedBy)
+    {
+        var response = new ChangePasswordResponse();
+        var user = await _userRepository.GetUserByLoginAsync(login);
+
+        if (user == null)
+        {
+            response.Message = "user not found";
+            response.IsSuccess = false;
+
+            return response;
+        }
+
+        if (!BCrypt.Net.BCrypt.Verify(model.OldPassword, user.Password))
+        {
+            response.Message = "wrong old password";
+            response.IsSuccess = false;
+
+            return response;
+        }
+
+        user.Password = BCrypt.Net.BCrypt.HashPassword(model.NewPassword);
+        user.ModifiedOn=DateTime.Now;
+        user.ModifiedBy = modifiedBy;
+        await _userRepository.UpdateUser(user);
+
+        response.Message = "password was successfully changed";
+        response.IsSuccess = true;
+        response.User = user;
+
         return response;
     }
 }

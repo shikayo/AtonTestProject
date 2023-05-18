@@ -16,18 +16,12 @@ namespace AtonAPI.Controllers;
 [Route("[controller]")]
 [ApiController]
 [Authorize]
-public class UserController : ControllerBase
+public class UserController : BaseController
 {
     private readonly IUserService _userService;
     public UserController(IUserService userService)
     {
         _userService = userService;
-    }
-    private User GetCurrentUser()
-    {
-        var identity = HttpContext.User.Identity as ClaimsIdentity;
-        var id = Guid.Parse(identity.FindFirst(x=>x.Type=="id").Value);
-        return _userService.GetById(id).Result;
     }
     
     /// <summary>
@@ -42,17 +36,16 @@ public class UserController : ControllerBase
         if (currentUser.Admin)
         {
             var user = await _userService.GetByLogin(model.Login);
-            if (user == null) {
+            if (user == null) 
+            {
                 
                 if (ModelState.IsValid)
                 {
-                    var identity = HttpContext.User.Identity as ClaimsIdentity;
-                    var id = Guid.Parse(identity.FindFirst(x=>x.Type=="id").Value);
-                    var creator = await _userService.GetById(id);
+                    var creator = GetCurrentUser();
                     
-                    _userService.CreateUser(model,creator);
+                    var response =await _userService.CreateUser(model,creator);
                     
-                    return Ok(user);
+                    return Ok(response);
                 }
                 else
                 {
@@ -164,6 +157,78 @@ public class UserController : ControllerBase
     }
 
     /// <summary>
+    /// updating user info(name,birthday etc)
+    /// </summary>
+    /// <param name="login"></param>
+    /// <param name="model"></param>
+    /// <returns></returns>
+    [HttpPut("UpdateUserInfo/{login}")]
+    public async Task<IActionResult> UpdateUserInfo([FromRoute] string login,UpdateUserInfoModel model)
+    {
+        var currentUser = GetCurrentUser();
+
+        if (currentUser.Admin || currentUser.Login == login)
+        {
+            var response=await _userService.UpdateUserInfo(login,model,currentUser.Login);
+
+            if (response.IsSuccess)
+                return Ok(response);
+
+            return BadRequest(response);
+        }
+
+        return BadRequest(new { message = "rejected" });
+    }
+
+    /// <summary>
+    /// changing user password
+    /// enter old password then new password
+    /// </summary>
+    /// <param name="login"></param>
+    /// <param name="model"></param>
+    /// <returns></returns>
+    [HttpPut("ChangePassword/{login}")]
+    public async Task<IActionResult> ChangePassword([FromRoute] string login, ChangePasswordModel model)
+    {
+        var currentUser = GetCurrentUser();
+        if (currentUser.Admin || currentUser.Login == login)
+        {
+            var response=await _userService.ChangeUserPassword(login,model,currentUser.Login);
+
+            if (response.IsSuccess)
+                return Ok(response);
+
+            return BadRequest(response);
+        }
+
+        return BadRequest(new { message = "rejected" });
+    }
+
+    /// <summary>
+    /// change user login, new login must be unique
+    /// </summary>
+    /// <param name="login"></param>
+    /// <param name="model"></param>
+    /// <returns></returns>
+    [HttpPut("ChangeUserLogin/{login}")]
+    public async Task<IActionResult> ChangeLogin([FromRoute] string login,UpdateUserLoginModel model)
+    {
+        var currentUser = GetCurrentUser();
+
+        if (currentUser.Admin || currentUser.Login == login)
+        {
+            var response=await _userService.UpdateUserLogin(login,model,currentUser.Login);
+
+            if (response.IsSuccess)
+                return Ok(response);
+
+            return BadRequest(response);
+        }
+
+        return BadRequest(new { message = "rejected" });
+    }
+
+    /// <summary>
     /// Delete by login
     /// </summary>
     /// <param name="request"></param>
@@ -215,5 +280,12 @@ public class UserController : ControllerBase
         }
 
         return BadRequest(new { message = "you must be an admin" });
+    }
+    
+    private User GetCurrentUser()
+    {
+        var identity = HttpContext.User.Identity as ClaimsIdentity;
+        var id = Guid.Parse(identity.FindFirst(x=>x.Type=="id").Value);
+        return _userService.GetById(id).Result;
     }
 }

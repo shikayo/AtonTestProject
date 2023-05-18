@@ -1,4 +1,6 @@
-﻿namespace Domain.Models;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Domain.Models;
 
 public class DeleteUserRequest : BaseRequest
 {
@@ -12,5 +14,6 @@ public class DeleteUserRequest : BaseRequest
         UserLogin = userLogin;
         IsSoftDelete = isSoftDelete;
     }
+    [Required]
     public bool IsSoftDelete { get; set; }
 }

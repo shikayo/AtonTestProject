@@ -29,10 +29,10 @@ public class UserRepository : IUserRepository
         return (await _context.Users.SingleOrDefaultAsync(x=>x.Id==id))!;
     }
 
-    public void AddUser(User user)
+    public async Task AddUser(User user)
     {
-        _context.Users.Add(user);
-        _context.SaveChanges();
+        await _context.Users.AddAsync(user);
+        await _context.SaveChangesAsync();
     }
 
     public async Task<List<User>> GetAllSortedByCreation()
